@@ -1,0 +1,117 @@
+/*BODY*/
+
+body{
+	color: white;
+	background-image: url("images/background.jpg");
+	background-repeat: no-repeat;
+	background-position: center center;
+	background-attachment: fixed;
+	background-size: cover;
+	font-family: 'Play', sans-serif;
+}
+
+/*NAVBAR*/
+
+.navbar{
+	background-color: #00020f;
+	border-bottom: 3px solid white;
+	margin-bottom: 50px;
+}
+
+.nav-link{
+	color:white;
+	font-size: 20px
+}
+
+.navbar-brand{
+	color:white;
+	font-size: 28px;
+}
+
+.nav-link:hover, .navbar-brand:hover{
+	color:#adabab;
+}
+
+/*NAVBAR TOGGLER*/
+
+.navbar-toggler-icon{
+	background-image: url("images/icon.png");
+}
+
+.navbar-toggler{
+	border-color: white;
+	border-width: 2px;
+}
+
+/*JUMBOTRON*/
+
+.jumbotron{
+	background-color: rgba(0,0,0,0.5);
+	border:3px solid white;
+	border-radius: 12px/10px;
+}
+
+.welcome-text{
+	font-size: 50px;
+}
+
+.about-site{
+	font-size: 28px;
+}
+
+/*FLEXBOX CONTAINER*/
+
+.flexbox-container{
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+}
+
+/*IMAGES*/
+
+.image-nav{
+	width:265px;
+	height: 250px;
+	margin:8px 22px 22px 22px;
+	border:2px solid white;
+	border-radius: 15px/10px;
+	transition: all 1s;
+}
+
+.image-nav:hover{
+	transform: scale(1.1);
+}
+
+.title-nav{
+	text-align: center;
+}
+
+/*ARTICLES*/
+
+.header{
+	padding: 6px;
+	text-align: center;
+	width: 100%;
+	border-top:2px solid white;
+	border-bottom: 2px solid white;
+	font-weight: bold;
+}
+
+.text-content{
+	font-size:17px;
+	font-weight: bold;
+}
+
+
+/*RESPONSIVE SETTINGS*/
+
+@media (max-width: 768px) { 
+
+	.welcome-text{
+		font-size: 35px;
+	}
+
+	.about-site{
+		font-size: 18px;
+	}
+}
