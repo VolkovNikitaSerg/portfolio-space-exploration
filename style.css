@@ -4,8 +4,6 @@ body{
 	color: white;
 	background-image: url("images/background.jpg");
 	background-repeat: no-repeat;
-	background-position: center center;
-	background-attachment: fixed;
 	background-size: cover;
 	font-family: 'Play', sans-serif;
 }
